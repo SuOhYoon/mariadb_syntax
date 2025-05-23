@@ -69,5 +69,5 @@ alter table post modify title varchar(255) not null, modify content varchar(3000
 
 -- drop : 테이블을 삭제하는 명령어
 drop table abc;
--- 일련의 쿼리를 실행시킬때 특정 쿼리에서 에러가 나지 않도록, if-exists
+-- 일련의 쿼리를 실행시킬때 특정 쿼리에서 에러가 나지 않도록, if-exists를 많이 사용
 drop table if exists abc;
