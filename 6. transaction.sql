@@ -21,7 +21,7 @@ begin
     insert into post(title, content, author_id) values ("hello", "hello ...", 3);
     commit; -- 또는 rollback;
 end //
-DELIMETER ;
+DELIMITER ;
 
 -- 프로시저 호출
 call transaction_test;
@@ -39,4 +39,4 @@ begin
     insert into post(title, content, author_id) values (titleInput, contentInput, idInput);
     commit; -- 또는 rollback;
 end //
-DELIMETER ;
+DELIMITER ;
